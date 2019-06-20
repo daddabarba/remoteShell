@@ -5,7 +5,7 @@
 #include "Program.h"
 
 #include <unistd.h>
-#include <wait.h>
+#include <sys/wait.h>
 #include <stdio.h>
 
 void m_free_program(Program *this){

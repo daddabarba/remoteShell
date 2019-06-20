@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <memory.h>
-#include <wait.h>
+#include <sys/wait.h>
 
 #include "prompt.h"
 #include "builtInCommand.h"

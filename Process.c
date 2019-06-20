@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <wait.h>
+#include <sys/wait.h>
 
 void m_add_command_list(Process *this, CommandList *new){
 

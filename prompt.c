@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <wait.h>
+#include <sys/wait.h>
 
 #define KNRM  "\x1B[0m"
 #define KRED  "\x1B[31m"
